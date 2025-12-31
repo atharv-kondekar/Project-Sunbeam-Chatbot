@@ -2,7 +2,7 @@ import os
 from langchain_community.document_loaders import TextLoader
 
 ROOT = os.path.abspath(os.path.dirname(__file__))
-DATA_DIR = os.path.join(ROOT, "Scraping Sunbeam Data", "data")
+DATA_DIR = os.path.join(ROOT, "Scraping sunbeam data", "scraped data")
 
 def load_all_txt():
     if not os.path.exists(DATA_DIR):
@@ -17,21 +17,11 @@ def load_all_txt():
                 for d in loader.load():
                     d.metadata["source"] = path
                     docs.append(d)
+    print(f"✔ Loaded {len(docs)} documents from: {DATA_DIR}")
     return docs
-
 
 if __name__ == "__main__":
     data = load_all_txt()
-    print(f"✔ Loaded {len(data)} documents.\n")
-
-    print("📌 SAMPLE FROM MAIN DATA:")
+    print("\n📌 SAMPLE FILES:")
     for d in data[:5]:
         print("•", d.metadata["source"])
-
-    print("\n📌 SAMPLE FROM COURSES FOLDER:")
-    for d in data:
-        if "courses" in d.metadata["source"].lower():
-            print("•", d.metadata["source"])
-            break
-    else:
-        print("❌ NO course files detected. Check folder spelling.")

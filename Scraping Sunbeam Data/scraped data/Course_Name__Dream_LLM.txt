@@ -1,0 +1,44 @@
+========================================
+📌 Course Name : Dream LLM
+========================================
+
+Course Name:
+--------------------
+Course Name : Dream LLM
+
+Duration:
+--------------------
+Duration : 5 weeks
+
+Schedule:
+--------------------
+Batch Schedule : 05-Jan-2026 To 09-Feb-2026
+
+Timings:
+--------------------
+Timings : 9:00 PM To 11:00 PM
+
+Fees:
+--------------------
+Fees : Rs. INR 20000/- 12000/-(Inc.18% GST)
+
+Prerequisite:
+--------------------
+- Basic to intermediate Python programming (loops, functions, lists, dictionaries, basics of classes) - Basic understanding of ML concepts (what a model, training, and loss mean) - High-level math intuition: addition, subtraction, multiplication and division - Familiarity with PyTorch or NumPy is helpful but not mandatory - A laptop with 8 GB RAM (GPU recommended but not required) - Curiosity and willingness to learn how LLMs work internally (not just use APIs)
+
+Syllabus:
+--------------------
+Introduction to LLM What is large language model? Types of LLM Applications of LLM Requirements of DreamLLM Mathematics and Pytorch required for LLM Vectors Matrices Tensors Linear Algebra All maths topics with Pytorch implementation Introduction to Deep Learning Difference between ML and DL Neural network architecture Introduction to forward and backward propagation Why should you build DreamLLM? Strategies of building LLM Fine tuning vs creating custom LLM Supervised (labelled) vs unsupervised (unlabelled) training custom LLM Architecture of DreamLLM Transformers Relationship between LLM and transformer Introduction to transformers Transformer architecture Types of transformers Understanding data Data requirements to train DreamLLM Preprocessing the data Tokenization Custom tokenization Embeddings basics Byte pair encoding Processing data using sequence modelling Introduction to RNN (LSTM and GRU) Introduction and requirement of attention mechanism Implementing attention mechanism Self attention mechanism Single head Multi head Creating LLM from scratch Deciding the layers, activation functions Implementing feed forward network Generating text using custom LLM Fine tuning for further tasks Fine tuning the DreamLLM on labelled data Fine tuning the DreamLLM on unlabelled data Evaluation of DreamLLM Deploying the DreamLLM Use AWS cloud for deployment Automate the deployment using AWS DevOps tools
+
+Outcomes:
+--------------------
+Academic Outcomes Theoretical Understanding Deep knowledge of mathematical foundations (Linear Algebra, Probability & Statistics, Optimization). Understanding key concepts in Machine Learning and Deep Learning. In-depth knowledge of Transformer architectures, Attention Mechanisms, and their variants (GPT, BERT, T5). Practical Skills Proficiency in Python and the use of deep learning frameworks like TensorFlow and PyTorch. Ability to implement, train, and fine-tune advanced neural network models. Skills in data preprocessing, feature extraction, and handling large datasets. Evaluation and Deployment Knowledge of evaluation metrics for NLP models (BLEU, ROUGE). Techniques for deploying LLMs in production environments using APIs and containerization tools (Docker, Kubernetes). Professional Outcomes Job Readiness Enhanced employability in roles related to AI research, machine learning engineering, and NLP development. Ability to tackle complex problems in natural language processing and develop innovative solutions Research Capabilities - Skills to contribute to the field of AI and NLP through original research. - Understanding of current trends, challenges, and opportunities in LLM development. - Understanding of ethical considerations in AI and NLP, including bias mitigation, privacy, and data governance. - Commitment to developing AI solutions that are fair, transparent, and responsible.
+
+Capstone project:
+--------------------
+Project Overview Project Name: DreamLLM Objective: Develop a state-of-the-art Large Language Model (LLM) from scratch, focusing on innovation and advanced capabilities. Scope: The project aims to create an LLM with the ability to understand, generate, and interpret human language. Target Audience: Researchers, developers, and enthusiasts interested in advanced AI and NLP. Note: For the sake of time and infrastructure, the LLM will be trained on the limited data. (For the real version of it, you may want to go for huge data which will cost more.) Technical Requirements Programming Language: Python (version 3.11) Deep Learning Frameworks:PyTorch Software Tools: Jupyter Notebook Git for version control Docker for containerization (optional, depending on the participants) Kubernetes for deployment (optional, depending on scalability needs) Libraries and Tools: Numpy, Pandas (for data manipulation) NLTK or SpaCy (for text preprocessing) Matplotlib, Seaborn (for data visualization) Hardware Requirements: Own infrastructure High-performance GPU(s) Sufficient storage for large datasets Adequate RAM (minimum 32 GB)??????? Google Colab with TPU or GPU support Runpod Functional Requirements Model Architecture: Transformer-based architecture with advanced attention mechanisms Support for different variants (e.g., GPT, BERT, T5) Pre-training and fine-tuning capabilities Data Handling: Data preprocessing pipeline (tokenization, embedding) Large dataset support (e.g., Wikipedia, Common Crawl) Training Process: Distributed training for scalability Hyperparameter tuning (learning rate, batch size, etc.) Evaluation Metrics: Language accuracy metrics (BLEU, ROUGE) Performance benchmarks (e.g., GLUE tasks) Inference and Deployment: API-based deployment (RESTful or gRPC) Real-time inference capabilities User Interface: Web-based interface for interacting with the model (optional)
+
+Batch schedule:
+--------------------
+Sr.No Batch Code Start Date End Date Time 1 DreamLLM-O-01 05-Jan-2026 09-Feb-2026 9:00 PM To 11:00 PM Schedule : Monday - Thursday
+

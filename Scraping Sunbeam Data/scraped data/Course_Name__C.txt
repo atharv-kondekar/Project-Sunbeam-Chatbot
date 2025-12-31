@@ -1,0 +1,40 @@
+========================================
+📌 Course Name : C++
+========================================
+
+Course Name:
+--------------------
+Course Name : C++
+
+Duration:
+--------------------
+Duration : 60 Hrs
+
+Schedule:
+--------------------
+Batch Schedule : 23-Jan-2026 To 20-Feb-2026
+
+Timings:
+--------------------
+Timings : 5:00 PM To 8:00 PM
+
+Fees:
+--------------------
+Fees : Rs. 7000/- 5900 Early Bird Offer
+
+Target Audience:
+--------------------
+Students Fresher's Working professionals
+
+Pre-requisites:
+--------------------
+C Programming
+
+Syllabus:
+--------------------
+C++ Introduction Namespace C++ Language Features Exception Handling OOPS Concepts Dynamic Memory Allocation, Destructor & Copy Constructor Friend Function & Operator Overloading How To Share Data Between Objects Inheritance & Polymorphism Virtual Function, Abstract Class & Interface STL FILE I/O
+
+Batch schedule:
+--------------------
+Sr.No Batch Code Start Date End Date Time 1 CPP- O-07 23-Jan-2026 20-Feb-2026 5:00 PM To 8:00 PM Schedule : Weekdays - (Mon-Fri)
+
