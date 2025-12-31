@@ -1,77 +1,58 @@
-========== INTERNSHIP PAGE ==========
+PAGE: Internship Programs
+CATEGORY: Internship & Training
 
-Page Title: INTERNSHIP
+OVERVIEW:
+Sunbeam provides hands-on industrial training internships focused on practical skills, project development, and mentorship. Durations: 1 Month, 2 Months, 6 Months.
 
+STRUCTURE BY DURATION:
 
-========== STUDENT INDUSTRIAL TRAINING & INTERNSHIP ==========
+1 MONTH:
+- Comprehensive training + mini project
+- Mode: Offline at campus
 
-At Sunbeam, we recognize the importance of practical experience in shaping the careers of aspiring professionals. Our industrial training and internship programs provide students with the opportunity to gain hands-on technology, develop valuable skills, and explore their interests in various fields. We offer flexible durations of 1 month, 2 months, and 6 months Internship Program to accommodate the needs and schedules of students.
+2 MONTHS:
+- Technology training sessions + 2 mini projects
+- 1 Offline + 1 Online
 
-If you're looking for a short-term immersion or a more extensive exploration, our programs offer a blend of training, projects, under the guidance of project mentors which will enhance skills and career prospects of a candidate.
-List of Internship Program
-Sr.No.
-Duration
-Structure
-Mode
-1
-1 Month
-1 month of comprehensive training
-Concurrent execution of a mini project
-Offline mode at Sunbeam campus
-2
-2 months
-Training sessions for relevant technologies
-Execution of 2 mini projects based on selected technology
-One mini project to be developed in offline mode at Sunbeam campus.
-One mini project to be developed in online mode.
-3
-6 months
-In-depth training program during the entire internship
-One mini project to be developed and one project to be developed with enhanced features based on specific technology.
-One mini project to be developed in offline mode at Sunbeam campus.
-One project to be developed with enhanced features based on specific technology in online mode.
+6 MONTHS:
+- Full training + Mini Project + Major Project
+- 1 Offline + 1 Online (Enhanced features project)
 
-========== TRAINING AND INDUSTRIAL PROGRAM FEATURES ==========
+BENEFITS:
+- Practical industry skills
+- Real-world project experience
+- Mentor guidance
+- Evaluation & feedback reviews
+- Certificate on completion
+- Placement preparation support
 
-- Hands-On Experience - Practical learning through project-based activities aligned with industry standards.
-- Structured Training - Receive comprehensive training sessions tailored to the duration and focus area of the internship.
-- Project Development - Work on mini and elaborative project using conceptual knowledge for real-world scenarios.
-- Mentorship - Guidance from experts throughout the internship period.
-- Evaluation and Feedback - Participate in regular review meetings via Zoom for project evaluation and feedback.
-- Reporting - Project Evaluation Report will be shared with the respective college where candidate is from. In case candidate joins this program directly without any reference of college in such case report will be shared directly to the candidate.
+AVAILABLE DOMAINS:
+- MERN
+- Android
+- Internet of Things
+- ARM Microcontroller
+- Generative AI
+- Java Programming
+- .NET
+- Web Programming using Python
+- Data Science (ML)
+- Cyber Security
 
-========== PLACEMENTS ==========
+INTERNSHIP BATCH SCHEDULE:
 
-- We help students prepare for the Campus Placement Programme. The PPP is a training module to improve the student’s employability skills.
+| Batch Code                       | Duration | Dates (From-To)              | Timings               | Fees |
+|----------------------------------|----------|------------------------------|------------------------|------|
+| IIT-08-H-A-MERN                  | 1 Month  | 10-Dec-2025 to 05-Jan-2026   | 8:00 AM to 4:00 PM     | ₹4000 |
+| IIT-08-H-A-Android               | 1 Month  | 10-Dec-2025 to 05-Jan-2026   | 8:00 AM to 4:00 PM     | ₹4000 |
+| IIT-08-H-A-Internet of Things    | 1 Month  | 10-Dec-2025 to 05-Jan-2026   | 8:00 AM to 4:00 PM     | ₹4000 |
+| IIT-08-H-A-ARM Micro-controller  | 1 Month  | 10-Dec-2025 to 05-Jan-2026   | 8:00 AM to 4:00 PM     | ₹4000 |
+| IIT-08-H-A-Generative AI         | 1 Month  | 10-Dec-2025 to 05-Jan-2026   | 8:00 AM to 4:00 PM     | ₹4000 |
+| IIT-08-H-A-Java Programming      | 1 Month  | 10-Dec-2025 to 05-Jan-2026   | 8:00 AM to 4:00 PM     | ₹4000 |
+| IIT-08-H-A-.NET                  | 1 Month  | 10-Dec-2025 to 05-Jan-2026   | 8:00 AM to 4:00 PM     | ₹4000 |
+| IIT-08-H-A-Web Python            | 1 Month  | 10-Dec-2025 to 05-Jan-2026   | 8:00 AM to 4:00 PM     | ₹4000 |
+| IIT-08-H-A-Data Science (ML)     | 1 Month  | 10-Dec-2025 to 05-Jan-2026   | 8:00 AM to 4:00 PM     | ₹4000 |
+| IIT-08-H-A-Cyber Security        | 1 Month  | 10-Dec-2025 to 05-Jan-2026   | 8:00 AM to 4:00 PM     | ₹4000 |
 
-========== BENEFITS OF PROGRAM ==========
-
-- Gain practical skills and industry exposure.
-- Enhance your resume with hands-on project experience.
-- Receive guidance and mentorship from industry experts.
-- Be a part of a network with professionals and peers in specific field.
-- Earn a certificate upon successful completion of the program.
-
-========== OUR ASSOCIATES ==========
-
-
-
-========== AVAILABLE INTERNSHIP PROGRAMS ==========
-
-- Internship program available for Computer Science, Information Technology, and Electronics Students
-
-========== INTERNSHIP BATCHES SCHEDULE ==========
-
-Sr.No | Batch | Batch Duration | Start Date | End Date | Time | Fees (Rs.) | Download Brochure
-1 | IIT-08-H-A-MERN | 1 Month | 10-Dec-2025 | 05-Jan-2026 | 8:00 AM  To  4:00 PM | 4000/-/- | 
-2 | IIT-08-H-A-Android | 1 Month | 10-Dec-2025 | 05-Jan-2026 | 8:00 AM  To  4:00 PM | 4000/- | 
-3 | IIT-08-H-A-Internet of Things | 1 Month | 10-Dec-2025 | 05-Jan-2026 | 8:00 AM  To  4:00 PM | 4000/- | 
-4 | IIT-08-H-A-ARM Micro-controller | 1 Month | 10-Dec-2025 | 05-Jan-2026 | 8:00 AM  To  4:00 PM | 4000/- | 
-5 | IIT-08-H-A-Generative AI | 1 Month | 10-Dec-2025 | 05-Jan-2026 | 8:00 AM  To  4:00 PM | 4000/- | 
-6 | IIT-08-H-A-Java Programming | 1 Month | 10-Dec-2025 | 05-Jan-2026 | 8:00 AM  To  4:00 PM | 4000/- | 
-7 | IIT-08-H-A-.net | 1 Month | 10-Dec-2025 | 05-Jan-2026 | 8:00 AM  To  4:00 PM | 4000/- | 
-8 | IIT-08-H-A-Web Programming using Python | 1 Month | 10-Dec-2025 | 05-Jan-2026 | 8:00 AM  To  4:00 PM | 4000/- | 
-9 | IIT-08-H-A-Data Science (ML) | 1 Month | 10-Dec-2025 | 05-Jan-2026 | 8:00 AM  To  4:00 PM | 4000/- | 
-10 | IIT-08-H-A-Cyber Security | 1 Month | 10-Dec-2025 | 05-Jan-2026 | 8:00 AM  To  4:00 PM | 4000/- | 
-
-✅ Internship Data Scraped Successfully
+NOTE:
+- Offline at Sunbeam Campus
+- For CS/IT/Electronics students
