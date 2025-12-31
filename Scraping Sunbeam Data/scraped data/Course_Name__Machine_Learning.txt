@@ -1,0 +1,56 @@
+========================================
+📌 Course Name : Machine Learning
+========================================
+
+Course Name:
+--------------------
+Course Name : Machine Learning
+
+Duration:
+--------------------
+Duration : 40 hrs.
+
+Schedule:
+--------------------
+Batch Schedule : 26-Oct-2023 To 28-Nov-2023
+
+Timings:
+--------------------
+Timings : 07:30 AM To 9:30 AM
+
+Fees:
+--------------------
+Fees : Rs. 7500/- (Inc. 18% GST)
+
+Target Audience:
+--------------------
+Students Fresher's Working Professionals
+
+Syllabus:
+--------------------
+Introduction to Machine Learning Big picture of machine learning Why machine learning is needed? Types of machine learning Challenges of machine learning Creating machine learning pipeling End-to-end process Regression Understanding statistical regression Performing regression with Simple linear regressison Multiple linear regression Support vector machine Evaluating models using RMSE, MSE, MAE etc Classification Understanding need of classification Classification vs regression Performing classification with Logistic regression Support vector machine Decision trees K nearest neighbours Evaluating models using AuC and RoC etc Ensemble Learning What is ensemble learning Need of ensemble learning Types of ensemble learning Bagging Random forest Boosting Gradient boosting Xgboost Stacking Clustering Why clustering is needed? Performing clustering using Hierarchical clustering K meaning clustering Association Rule Mining Where association rule mining is needed Performing association rule mining using Apriori Dimensionality Reduction Introduction to feature extraction What is dimensionality reduction? Performing dimensionality reduction using PCA Introdution to Deep Learning What is deep learning? Introduction to artificial networking Introduction to TensorFlow and Keras Introduction MLPs with Keras Convolutional Neural Network Deep computer vision using CNN Introduction to images and convolutions CNN architecture Image classification using CNN Object detection using CNN Recurrent Neural Network Introduction to RNN Processing sequences using RNN Training RNN Forecasting time series using TensorFlow Naural language processing using RNN Representation Learning and GANs Introduction to autoencoders Stacked autoencoders Introduction to GAN Reinforcement Learning Introduction to reinforcement learning Introduction to OpenAI gym Q-learning Deep Q-Learning Deploying model on cloud (AWS) Saving models Serving TensorFlow model
+
+Pre-requisites:
+--------------------
+Python fundamentals Collections Functions Classes Decorators Packages Numpy Pandas Matplotlib Statistics fundamentals Note: Training videos on important topics will be shared for your own practice
+
+Outcome:
+--------------------
+You will be able to understand when, where and how to use ML You will be able to solve problems related to regression, classification, AI etc. You will be able to create models which can be used in desktop and mobile applications
+
+Important Note:
+--------------------
+Course does not cover the following: Python Programming Syntax, even though entire ML programming will be done in Python. (Join prerequisite course : python-development) Statistics behind ML algorithms, however foundations of descriptive & inferential statistics are covered exclusively (Refer syllabus). Web technologies, however serving ML model in the web application is covered.
+
+Software Setup:
+--------------------
+Python 3.x IDE: Pycharm Packages: numpy, pandas, scikit, pytorch, keras, flask
+
+Student Feedback:
+--------------------
+The excellent teaching style and excellent understanding of teaching topics. What I like the most about the course is how Amit Sir helps to improve visualization of code using proper diagrams and images. Also, proper sequencing of sample examples helps to revise the topic in the future. It’s good that sir gives more time on basic topics in the beginning so that the foundation is strong. Your knowledge and leadership provide us with a priceless model for our own careers. I am so happy you are part of my education. I learned to truly care about diversity and inclusion through your classes, and I hope now spread that message in a passionate but thoughtful way. You’re awesome! Amazing skill of teaching and a very well structured course for people to start to learn to machine learning. The assignments are very good for understanding the practical side of machine learning. To all those thinking of getting in ML, this is a must-have course. Kindly continue these online sessions post COVID-19 pandemic. It's really helpful for those who cannot come to the institute due to timing issues /working out of Pune etc. but willing to learn from you all. Thank You. Kudos to Sunbeam and Amit Sir again, for conducting Machine Learning with Python course in such a great manner. Amit Sir teaching as always is very precise and he goes out of this schedule to answer and cover, each and every doubt of the students and the topic in the syllabus. The course was also extended by a week, so as to cover all the topics in a meticulous manner. Thank you Amit Sir and Sunbeam once again :)
+
+Batch schedule:
+--------------------
+Sr.No Batch Code Start Date End Date Time 1 ML-O-07 26-Oct-2023 28-Nov-2023 07:30 AM To 9:30 AM Schedule : Weekdays - (Mon -Fri)
+

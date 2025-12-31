@@ -1,0 +1,44 @@
+COURSE: Pre-CAT
+CATEGORY: Entrance Preparation
+
+CONTENT:
+- General Aptitude: Quantitative Aptitude, Reasoning, English
+- Computer Fundamentals & Programming Concepts
+- C Programming
+- Data Structures
+- OOP in C++
+- Operating Systems & Networking
+- Basics of Big Data & Artificial Intelligence
+- Computer Architecture
+- Digital Electronics
+- Microprocessors
+
+ELIGIBILITY:
+- Students eligible for Sunbeam Full-Time PG Courses
+
+BATCH OPTIONS:
+
+1) Batch Code: PM-48
+   HOURS: 160
+   FROM: 16-Feb-2026
+   TO: 14-Apr-2026
+   TIMINGS: 9:00 AM to 1:00 PM
+   FEES: ₹17,600
+
+2) Batch Code: OM-66
+   HOURS: 160
+   FROM: 25-Feb-2026
+   TO: 16-May-2026
+   TIMINGS: 2:00 PM to 6:00 PM
+   FEES: ₹15,500
+
+3) Batch Code: PH-39
+   HOURS: 160
+   FROM: 09-Mar-2026
+   TO: 05-May-2026
+   TIMINGS: 9:00 AM to 1:00 PM
+   FEES: ₹17,600
+
+OUTCOMES:
+- Foundation for technical entrance exams
+- Strengthening CS fundamentals across all domains

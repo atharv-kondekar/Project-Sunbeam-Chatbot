@@ -1,0 +1,58 @@
+PAGE: Internship Programs
+CATEGORY: Internship & Training
+
+OVERVIEW:
+Sunbeam provides hands-on industrial training internships focused on practical skills, project development, and mentorship. Durations: 1 Month, 2 Months, 6 Months.
+
+STRUCTURE BY DURATION:
+
+1 MONTH:
+- Comprehensive training + mini project
+- Mode: Offline at campus
+
+2 MONTHS:
+- Technology training sessions + 2 mini projects
+- 1 Offline + 1 Online
+
+6 MONTHS:
+- Full training + Mini Project + Major Project
+- 1 Offline + 1 Online (Enhanced features project)
+
+BENEFITS:
+- Practical industry skills
+- Real-world project experience
+- Mentor guidance
+- Evaluation & feedback reviews
+- Certificate on completion
+- Placement preparation support
+
+AVAILABLE DOMAINS:
+- MERN
+- Android
+- Internet of Things
+- ARM Microcontroller
+- Generative AI
+- Java Programming
+- .NET
+- Web Programming using Python
+- Data Science (ML)
+- Cyber Security
+
+INTERNSHIP BATCH SCHEDULE:
+
+| Batch Code                       | Duration | Dates (From-To)              | Timings               | Fees |
+|----------------------------------|----------|------------------------------|------------------------|------|
+| IIT-08-H-A-MERN                  | 1 Month  | 10-Dec-2025 to 05-Jan-2026   | 8:00 AM to 4:00 PM     | ₹4000 |
+| IIT-08-H-A-Android               | 1 Month  | 10-Dec-2025 to 05-Jan-2026   | 8:00 AM to 4:00 PM     | ₹4000 |
+| IIT-08-H-A-Internet of Things    | 1 Month  | 10-Dec-2025 to 05-Jan-2026   | 8:00 AM to 4:00 PM     | ₹4000 |
+| IIT-08-H-A-ARM Micro-controller  | 1 Month  | 10-Dec-2025 to 05-Jan-2026   | 8:00 AM to 4:00 PM     | ₹4000 |
+| IIT-08-H-A-Generative AI         | 1 Month  | 10-Dec-2025 to 05-Jan-2026   | 8:00 AM to 4:00 PM     | ₹4000 |
+| IIT-08-H-A-Java Programming      | 1 Month  | 10-Dec-2025 to 05-Jan-2026   | 8:00 AM to 4:00 PM     | ₹4000 |
+| IIT-08-H-A-.NET                  | 1 Month  | 10-Dec-2025 to 05-Jan-2026   | 8:00 AM to 4:00 PM     | ₹4000 |
+| IIT-08-H-A-Web Python            | 1 Month  | 10-Dec-2025 to 05-Jan-2026   | 8:00 AM to 4:00 PM     | ₹4000 |
+| IIT-08-H-A-Data Science (ML)     | 1 Month  | 10-Dec-2025 to 05-Jan-2026   | 8:00 AM to 4:00 PM     | ₹4000 |
+| IIT-08-H-A-Cyber Security        | 1 Month  | 10-Dec-2025 to 05-Jan-2026   | 8:00 AM to 4:00 PM     | ₹4000 |
+
+NOTE:
+- Offline at Sunbeam Campus
+- For CS/IT/Electronics students

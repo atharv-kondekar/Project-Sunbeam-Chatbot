@@ -1,0 +1,28 @@
+COURSE: Mastering MCQs
+CATEGORY: Modular Course
+
+DURATION: 1 Month
+FEES: ₹3000
+SCHEDULE: 11-Dec-2025 to 08-Jan-2026
+TIMINGS: 11:00 AM to 12:30 PM
+MODE: Mon - Fri
+
+TARGET AUDIENCE:
+- Students
+- Freshers
+
+COURSE CONTENT:
+- Aptitude, Reasoning, English
+- Computer Fundamentals & Programming Concepts
+- C & C++
+- Data Structures
+- Operating Systems
+- Data Communication & Networking
+- Big Data, AI (Basics)
+- Computer Architecture
+- Digital Electronics & Microprocessors
+
+OUTCOMES:
+- Build foundational knowledge for MCQ-based exams
+- Prepare for C-CAT & MNC technical interviews
+- Reinforce core concepts across programming and CS fundamentals

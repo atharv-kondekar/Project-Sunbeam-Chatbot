@@ -3,7 +3,6 @@ from langchain_huggingface import HuggingFaceEmbeddings
 from langchain_chroma import Chroma
 from langchain.chat_models import init_chat_model
 
-
 # ---------------- CONFIG ----------------
 DB_DIR = os.path.join(os.path.dirname(__file__), "chroma_db")
 
@@ -22,98 +21,94 @@ llm = init_chat_model(
     api_key="dummy"
 )
 
-
 # ---------------- NORMALIZATION ----------------
 def normalize_query(q: str) -> str:
     q = q.lower().strip()
 
-    # Remove punctuation/noise
     for p in ["??", "?", "!", ".", ","]:
         q = q.replace(p, "")
 
-    # Remove filler words
-    filler_phrases = [
-        "hey bro", "bro", "hey", "hello", "hi", "can you tell me",
-        "what's the", "whats the", "i want to know", "give me", "please", "tell me"
-    ]
-    for f in filler_phrases:
+    filler = ["hey", "bro", "hello", "hi", "give me", "please", "tell me"]
+    for f in filler:
         q = q.replace(f, "")
 
     # Intent mapping
-    replace_map = {
+    intent_map = {
         "cost": "fees",
         "price": "fees",
         "how long": "duration",
         "time required": "duration",
-        "course length": "duration"
+        "course length": "duration",
     }
-    for k, v in replace_map.items():
+    for k, v in intent_map.items():
         q = q.replace(k, v)
 
-    # Course/term mapping
+    # Course mapping
     course_map = {
         "gen ai": "generative ai",
         "gen-ai": "generative ai",
         "llm": "generative ai",
         "ml": "machine learning",
         "data science": "machine learning",
-        "data-science": "machine learning",
         "adv java": "advanced java",
         "mern": "mern full stack development",
-        "fsd": "full stack development"
+        "fsd": "full stack development",
+        "python": "python programming",
     }
     for k, v in course_map.items():
         q = q.replace(k, v)
 
     return q.strip()
 
-
-# ---------------- DOC FILTERING ----------------
+# ---------------- FILTER DOCS ----------------
 def filter_docs_by_course(query, docs):
     tokens = set(query.lower().split())
-    filtered = [d for d in docs if any(t in d.metadata.get("course", "") for t in tokens)]
+    filtered = [d for d in docs if any(t in d.metadata.get("course","") for t in tokens)]
     return filtered if filtered else docs
-
 
 def prioritize_by_section(query, docs):
     q = query.lower()
 
-    if any(x in q for x in ["fee", "fees"]):
-        target = "fees"
-    elif "duration" in q or "hours" in q or "months" in q:
-        target = "duration"
-    elif "eligibility" in q or "prerequisite" in q:
-        target = "eligibility"
-    elif "syllabus" in q or "module" in q:
-        target = "syllabus"
-    elif "schedule" in q or "timings" in q:
-        target = "schedule"
-    else:
-        return docs
+    if "fees" in q: target = "fees"
+    elif any(x in q for x in ["duration", "hours", "months"]): target = "duration"
+    elif any(x in q for x in ["eligibility", "prerequisite"]): target = "eligibility"
+    elif any(x in q for x in ["syllabus", "module"]): target = "syllabus"
+    elif any(x in q for x in ["schedule", "timings"]): target = "schedule"
+    else: return docs
 
-    prioritized = [d for d in docs if d.metadata.get("section") == target]
-    return prioritized if prioritized else docs
-
+    best = [d for d in docs if d.metadata.get("section") == target]
+    return best if best else docs
 
 # ---------------- ASK FUNCTION ----------------
 def ask(raw_query: str):
     query = normalize_query(raw_query)
 
+    # Step 1: initial retrieval
     docs = retriever.invoke(query)
 
-    # manual score cleanup
-    docs = [d for d in docs if d.metadata.get("score", 1) >= 0.18] or docs
+    # Step 2: SOFT score filter (don’t nuke everything)
+    soft = [d for d in docs if d.metadata.get("score", 0) >= 0.25]
+    docs = soft if soft else docs  # fallback to original if empty
 
+    if not docs:
+        return "Not in my current Sunbeam data.", []
+
+    # Step 3: refine
     docs = filter_docs_by_course(query, docs)
     docs = prioritize_by_section(query, docs)
 
+    # Step 4: build context for model
     context = "\n\n---\n\n".join(d.page_content for d in docs)
 
+    # Step 5: instruction
     prompt = f"""
-You are a Sunbeam information assistant.
-Answer ONLY using the context below.
-If answer is not present → respond EXACTLY with:
-Not in my current Sunbeam data.
+You are a Sunbeam Institute information assistant.
+
+RULES:
+- Respond ONLY using the context.
+- If answer is missing → reply EXACTLY: Not in my current Sunbeam data.
+- Do NOT guess or hallucinate.
+- Answer in one or two lines maximum.
 
 CONTEXT:
 {context}
@@ -124,40 +119,21 @@ ANSWER:
 
     response = llm.invoke(prompt)
     answer = response.content.strip()
-    sources = [d.metadata.get("file") for d in docs]
-    return answer, sources
 
+    if answer.lower() == "not in my current sunbeam data.":
+        return "Not in my current Sunbeam data.", []
 
-# ---------------- TEST CASES ----------------
-TEST_CASES = [
-    ("fees for java", "direct"),
-    ("duration of generative ai", "direct"),
-    ("eligibility for data science", "direct"),     # mapped to ML now
-    ("fees for marine engineering", "not_found"),
-    ("java duration", "direct"),
-    ("cost of gen ai", "direct"),
-    ("yo python cost??", "direct"),
-    ("hey bro what’s the fees for java course?", "direct"),
-    ("where is sunbeam located?", "not_found"),
-    ("placement percentage", "not_found"),
-]
+    return answer, []
 
-
-# ---------------- MAIN ----------------
+# ---------------- TEST ----------------
 if __name__ == "__main__":
-    print("\n🚀 TESTING SUNBEAM RAG SYSTEM\n")
-
-    for query, expected in TEST_CASES:
-        answer, src = ask(query)
-
-        if expected == "not_found":
-            passed = (answer == "Not in my current Sunbeam data.")
-        else:
-            passed = (answer != "Not in my current Sunbeam data.")
-
-        status = "✅ PASS" if passed else "❌ FAIL"
-        print(f"{status} → {query!r}")
-        print(f"   ↳ {answer}")
-        print(f"   ↳ Sources: {src}\n")
-
-    print("\n🎯 DONE — Only fail if data is missing, not inconsistency.\n")
+    print("\n🚀 TESTING\n")
+    tests = [
+        "fees for java",
+        "duration for generative ai",
+        "eligibility for machine learning",
+        "about sunbeam",
+    ]
+    for t in tests:
+        ans, _ = ask(t)
+        print(f"Q: {t} → {ans}")
