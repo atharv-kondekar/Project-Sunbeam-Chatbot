@@ -1,40 +1,34 @@
-========================================
-📌 Course Name : C++
-========================================
+COURSE: C++
+CATEGORY: Programming / OOP Foundations
 
-Course Name:
---------------------
-Course Name : C++
+DURATION: 60 Hours
+FEES: ₹7000 (₹5900 Early Bird)
+SCHEDULE: 23-Jan-2026 to 20-Feb-2026
+TIMINGS: 5:00 PM to 8:00 PM
+MODE: Mon - Fri
 
-Duration:
---------------------
-Duration : 60 Hrs
+TARGET AUDIENCE:
+- Students
+- Freshers
+- Working professionals
 
-Schedule:
---------------------
-Batch Schedule : 23-Jan-2026 To 20-Feb-2026
+PREREQUISITES:
+- C Programming fundamentals
 
-Timings:
---------------------
-Timings : 5:00 PM To 8:00 PM
+SYLLABUS MODULES:
+- C++ Basics & Namespace
+- OOP Concepts in C++
+- Constructors, Destructor, Copy Constructor
+- Dynamic Memory Allocation
+- Exception Handling, Friend functions
+- Operator Overloading
+- Inheritance & Polymorphism
+- Virtual Functions & Abstract Classes
+- Interfaces, Templates
+- STL: vectors, maps, algorithms
+- File I/O operations
 
-Fees:
---------------------
-Fees : Rs. 7000/- 5900 Early Bird Offer
-
-Target Audience:
---------------------
-Students Fresher's Working professionals
-
-Pre-requisites:
---------------------
-C Programming
-
-Syllabus:
---------------------
-C++ Introduction Namespace C++ Language Features Exception Handling OOPS Concepts Dynamic Memory Allocation, Destructor & Copy Constructor Friend Function & Operator Overloading How To Share Data Between Objects Inheritance & Polymorphism Virtual Function, Abstract Class & Interface STL FILE I/O
-
-Batch schedule:
---------------------
-Sr.No Batch Code Start Date End Date Time 1 CPP- O-07 23-Jan-2026 20-Feb-2026 5:00 PM To 8:00 PM Schedule : Weekdays - (Mon-Fri)
-
+OUTCOMES:
+- Understand C++ OOP principles
+- Use STL in practical programs
+- Build foundational projects in C++
