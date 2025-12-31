@@ -1,0 +1,44 @@
+========================================
+📌 Course Name : Python Development
+========================================
+
+Course Name:
+--------------------
+Course Name : Python Development
+
+Duration:
+--------------------
+Duration : 50 hrs.
+
+Schedule:
+--------------------
+Batch Schedule : 23-Jan-2026 To 20-Feb-2026
+
+Timings:
+--------------------
+Timings : 8:00 AM To 10:30 AM
+
+Fees:
+--------------------
+Fees : Rs. 8100/- 6800 Early Bird Offer
+
+Prerequisite:
+--------------------
+Any programming language
+
+Highlights:
+--------------------
+Live hands-on approach Builds foundation for Machine Learning/Data science
+
+Syllabus:
+--------------------
+Python Fundamentals and Environment Setup Introduction to Python Applications of Python in Machine Learning, Backend, Automation Installing Python on Windows, macOS, Linux Python interpreters and virtual environments Running Python programs Script mode vs interactive mode Basic coding standards and best practices Core Python Syntax and Data Types Variables and naming conventions Built-in data types: int, float, complex, bool, string Type conversion and type checking Input and output operations Understanding Python memory basics Control Flow and Decision Making if, elif, else statements Nested conditions Logical and comparison operators Real-world decision-making examples Loops and Iterations for loop while loop range function break, continue, pass Nested loops Common looping patterns Python Data Structures Lists Creation, indexing, slicing List operations and methods List comprehensions Tuples Tuple creation Tuple vs list Use cases and immutability Sets Set creation Set operations Mathematical set concepts Dictionaries Key-value pairs CRUD operations Nested dictionaries Handling JSON-like data Strings and Text Processing String operations Common string methods String formatting using f-strings Text manipulation and cleaning basics Functions and Modular Programming Defining and calling functions Function arguments: positional, keyword, default args and kwargs Return values Scope: local and global Creating reusable modules Object-Oriented Programming in Python OOP concepts and importance Classes and objects Constructors Instance variables and class variables Methods Encapsulation Inheritance Polymorphism Introduction to magic methods Real-world OOP examples Error Handling and Debugging Types of errors in Python try, except, else, finally Creating custom exceptions Debugging techniques Writing robust code File Handling and Data Input Output Reading and writing text files Working with CSV files Working with JSON files File handling best practices Introduction to logging Working with Dates, Time and Utilities Datetime module Time module Date formatting and parsing Timestamps and timers Python Standard Library Overview os and sys modules math and random modules collections module itertools introduction Useful built-in functions Introduction to Data Handling for Machine Learning Importance of data in ML Introduction to NumPy: Arrays and vectorized operations Introduction to Pandas: DataFrames and Series Reading datasets Basic data exploration and cleaning Python for Backend Development Foundations Role of Python in backend systems Basics of HTTP and REST APIs Introduction to Flask and FastAPI concepts Request and response lifecycle JSON handling in backend Basic database interaction concepts Database connectivity Introduction to MySQL and SQLite Database design basics (tables, rows, columns, keys) CRUD operations using SQL Connecting Python with databases Using Python database connectors Executing queries from Python Handling database transactions Error handling in database operations Mini Project Data-oriented mini project for ML foundation Backend-oriented mini project using Python logic Emphasis on clean code and problem-solving
+
+Student Feedback:
+--------------------
+The course content was well-structured and covered all the essential topics needed to build a solid foundation in Python programming. What stood out the most for me was the clarity with which the concepts were explained. Sir went above and beyond by covering additional topics that were incredibly valuable. I now feel much more confident in my Python skills, thanks to this course. I can genuinely say it was one of the most enriching learning experiences I’ve had. I was referred by a colleague to join SUNBEAM, I wasn’t entirely sure what to expect initially, but from the very first session, it became clear that I was in the hands of an exceptional teacher. Sir has an extraordinary talent for simplifying even the most complex Python concepts, making them easy to grasp for all students. His explanations are consistently clear, and he demonstrates remarkable patience, ensuring that every question is answered thoroughly and that no one is left behind. What truly stood out to me was his practical approach to teaching – beyond just theory, he provided real-world examples that made it easy to see how Python could be applied in my professional work. Sir's dedication to his students is truly admirable. I now feel confident in my Python skills and am eager to apply what I’ve learned in my career. His teaching style, depth of knowledge, and unwavering support are truly exceptional, and I feel very fortunate to have had the opportunity to be taught by him. To be honest, Python was my first authentic experience of learning programming language and this experience was made memorable by you sir. Older me was saying programming is soo boring, soo complicated, an headache. But sir you totally changed my perspective. Now, I have gained confidence that I too can develop applications. You just have not only taught us python, You taught insights of python. how python works internally. I never ever trained like this before. You showed the way how to look at concepts insights just not syntax. Its Conceptual + Insights + syntactical Training I got. My words are not enough to express the gratitude but still to get teacher like you needs luck also. The quizzes at the end of each module were also a great way to test my knowledge. The Q&A sessions 15-20 mins before and after each lecture added more value to it. The example of "Potter and Stencils" was amazing to understand the difference between "Java and Pythons class". Similarly the example of (2 or more) parallel projects while teaching the concept of working with "Virtual Environment" was amazing. Request the sunbeam management to please start such courses for Ex-CDAC students which helps the CDAC family to grow and show what the CDAC pupils can do with CDAC gurus showing us the way ahead. It would be needless to praise our CDAC guru’s knowledge. Teaching methodologies as doing classes from US at 4:30 am PST time I always had a smile on my face a kid like zeal to learn what Sir would bring to the table that day and by end of min 2:30 hrs of a lecture he would leave us in awe. I would say CDAC sunbeam is not an institutional at all, it more of a Gurukul where the pupils are lifelong connected to the Gurus here at Sunbeam like Nilesh Sir,(for motivating when I was about to quit CDAC coming from ECE background), Prashant Sir, Vijay Sir, Sameer Sir(had a magical experience when he taught us in 2011 Feb) , Sarang Sir(never thought that Software engineering subject could be fun and also be taught)
+
+Batch schedule:
+--------------------
+Sr.No Batch Code Start Date End Date Time 1 Python-O-15 23-Jan-2026 20-Feb-2026 8:00 AM To 10:30 AM Schedule : Mon - Fri
+

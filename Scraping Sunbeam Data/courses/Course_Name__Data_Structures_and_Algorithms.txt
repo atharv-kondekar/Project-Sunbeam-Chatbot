@@ -1,0 +1,64 @@
+========================================
+📌 Course Name : Data Structures and Algorithms
+========================================
+
+Course Name:
+--------------------
+Course Name : Data Structures and Algorithms
+
+Duration:
+--------------------
+Duration : 60 HRS
+
+Schedule:
+--------------------
+Batch Schedule : 29-Jan-2026 To 20-Feb-2026
+
+Timings:
+--------------------
+Timings : 5:00 PM To 8:00 PM
+
+Fees:
+--------------------
+Fees : Rs. 7000/- 5900 Early Bird Offer
+
+Target Audience:
+--------------------
+Students Fresher's Working professionals
+
+Syllabus:
+--------------------
+Algorithm Analysis: Time complexity Space complexity Linked List: Array advantages and disadvantages Linked List concept Linear Singly Linked List Circular Singly Linked List Linear and Circular Doubly Linked List Complexity analysis of Linked List operations Stack: Stack concept Stack using Array Stack using Linked List Expresion conversion & evaluation (prefix, infix and postfix) Parenthesis balancing Complexity analysis of Stack operations Queue: Queue concept & types Queue using Array Queue using Linked List Complexity analysis of Queue operations Sorting: Selection sort Bubble sort Insertion sort Quick sort Merge sort Heap sort Complexity analysis of sorting algorithms Searching: Linear Search Binary Search Hashing Complexity analysis of searching algorithms Tree: Tree concept & types Tree traversal (Inorder, Preorder and Postorder) Binary Search Tree (BST) implementation BST: add node, travsersal, delete node, balancing, BFS & DFS. Complexity analysis of BST algorithms Graph: Graph concept & types Adjacency Matrix implementation Adjacency List implementation Spanning Tree algorithms: Prim’s MST, Kruskal’s MST Shortest Path algorithms: Dijkstra, Bellaman Ford, Warshal Floyd Search algorithms: BFS, DFS, A* search Complexity analysis of Graph algorithms
+
+Pre-requisites:
+--------------------
+Java Programming: Class & Object, Generics, Java collections (Array list).
+
+Outcome:
+--------------------
+Understand common data structures (array, linked list, stack & queue) and their applications. Learn advanced data structures (hashing, trees, heap & graphs) and their operations. Implement data structures and algorithms using Java. Revise fundamentals for Data structure interviews.
+
+Software Setup:
+--------------------
+Any IDE & compiler for Java May use online editor
+
+Important Notes:
+--------------------
+Code along with trainer in live class. Assignments will be given for self practice. Line by line implementation of data structures in Java. Corresponding C++ & Python codes will be shared. Discussion of frequently asked interview questions.
+
+Student Feedback:
+--------------------
+Excellent Teaching, concept clearance and doubt clearing. Thank you sir for taking this wonderful session. Before this session I have only theory knowledge but now I am comfortable in code and logic also. really enjoyed the approach of explaining DS. It was good. Cleared all the doubts which I have asked with no rush, maintained simplicity in teaching with each topics. Abhilash Kamble I don’t owe my professional success to my destiny, courage, luck, belief, confidence or fortune. I owe it to a wonderful scholar like you. Nothing can come close to the inspirational presence of an instructor like you in a student’s journey. You have no idea how important a role you play in shaping my research development, maybe we did not meet a lot, but those little encouragement words means a lot to me. I really enjoyed all of the readings and found they were diverse and inclusive. I learned a lot. Thank you for allowing us space to not only have dialogue but be creative within our assignments as well. I really learned some useful tips and tricks for DATA STRUCTURE AND ALGORITHMS which will help me in "Competitive Programming" as well. Thank you for being so encouraging and doing everything you can to keep us motivated and supported throughout our program. Your knowledge and leadership provide us with a priceless model for our own careers. Your diligence and direction have inspired my inner confidence to climb like a Tiger until I reach the pinnacle of my ambitions. One of the best decisions I had a fantastic time by taking your course in such Lock-Down period due to the COVID Pandemic. Thank you for loving your job so much! You are an amazing teacher! Abhishek Verma It was an amazing course as I imagined. Because of Nilesh sir's lecture, I got depth knowledge of data structure and I’m sure this is more than enough to build my upcoming career. Sunbeam provides the best facilities of video lectures too and because of this facility, I personally got many profits if I forgot any concept I goes through these lectures and it will help me to understand these concepts. The enthusiasm which sunbeam provides always gives us good fruit. Thank you Sunbeam. Ashish Mishra The way of your explanation is excellent. I have learned first time Data structure and Algorithms but never felt tough in understanding at any moment. All the contents of data structures and algorithms learned very well and easily. Thank you very much, sir. Aniket Katte First of all, thank you for sharing your precious knowledge in a very efficient manner because even if I'm from none IT background I understood all things expertly. I'm sure that it will be very helpful throughout my career. Thank you ðŸ˜Š Tejas Jadhav The best thing about the course is that this course is very punctual about timing and syllabus. None of the single point is not skipped. and in learning time there is a motivated environment. Nilesh sir's way of teaching is awesome now I am big fan of sir. As I am a last year student many of the concepts is not cleared but after this course, I have that confidence that I am really good in DSA. Thank you nilesh sir and Sunbeam Team......!!! Shubham Pate all sessions are very well explained, understood very well, it will surely help me in dac course as data structure is a part of syllabus, the way of teaching was interesting, i enjoyed learning during course. Thanks a lot. Bilal Pathan Best approach to learn Ds is to learn through the basic and to learn basics is know basic .. the whole process by Nilesh sir made me understand Data structure in very simple way and to made an environment where we had an open discussion on of doubts without thinking whether to ask or not... Thanks a lot sir as beginner in data structure you have made me expert in ds what I need is now a paper work. So thanks a lot sir and thanks to vishal sir for helping me solve the basic problems.
+
+Getting Started with DS...:
+--------------------
+Course Highlight... Time Complexity...
+
+Recorded Videos:
+--------------------
+Recorded videos will be accessible for up to 7 Days from the date of upload.
+
+Batch schedule:
+--------------------
+Sr.No Batch Code Start Date End Date Time 1 DSA-O-12 29-Jan-2026 20-Feb-2026 5:00 PM To 8:00 PM Schedule : Weekdays - (Mon-Sat)
+

@@ -1,0 +1,44 @@
+========================================
+📌 Course Name : Mastering GenAI
+========================================
+
+Course Name:
+--------------------
+Course Name : Mastering GenAI
+
+Duration:
+--------------------
+Duration : 60 Hrs
+
+Schedule:
+--------------------
+Batch Schedule : 14-Jul-2025 To 03-Sep-2025
+
+Timings:
+--------------------
+Timings : 9:00 PM To 11:00 PM
+
+Fees:
+--------------------
+Fees : Rs. 17900/-
+
+Course Introduction:
+--------------------
+Join Amit Kulkarni, an industry expert and certified AI specialist, as he walks you through the Mastering GenAI course at Sunbeam Pune. This program is designed to help you understand, build, and innovate with AI-powered solutions.
+
+Syllabus:
+--------------------
+Mastering AI Basics Overview of Statistics Definition and importance of statistics Types of statistics: descriptive and inferential Role of statistics in data science and machine learning Basic statistical terminology (population, sample, parameter, statistic) Sampling Sampling methods sampling distributions Central Limit Theorem Descriptive Statistics Measures of central tendency (mean, median, mode) measures of variability (range, variance, standard deviation) skewness and kurtosis Probability: Basic concepts of probability, conditional probability Bayes' theorem. Random variables and probability distributions Distributions: Normal distribution Binomial distribution Poisson distribution Uniform distribution Hypothesis Testing: Null and alternative hypotheses Type I and Type II errors P-values Confidence intervals Correlation Analysis: Pearson correlation Spearman's rank correlation Time Series Analysis: Trend analysis Seasonality Moving averages ARMA models ARIMA models Data Visualization: Importance of data visualization Principles of effective data visualization Common visualization techniques: Histograms Box plots Scatter plots Heatmaps Bar charts Data Preprocessing Data cleaning and handling missing values Data transformation (normalization, standardization) Feature engineering and selection Encoding categorical variables Handling imbalanced datasets Data splitting (training, validation, test sets) Data augmentation techniques Outlier detection and handling Introduction to Machine Learning Overview of machine learning Types of machine learning: supervised learning unsupervised learning reinforcement learning semi-supervised learning Applications of machine learning Challenges and limitations of machine learning Regression Analysis Overview of regression analysis Algorithms for regression: Linear regression Ridge regression Lasso regression Assumptions of regression analysis Model evaluation metrics (R-squared, adjusted R-squared, RMSE, MAE) Model interpretation and communication of results Applications of regression analysis Classification Overview of classification Types of classification Evaluation metrics for classification (Confusion matrix, accuracy, precision, recall, F1-score, ROC-AUC) Algorithms for classification: Decision trees k-nearest neighbors (k-NN) Naive Bayes Ensemble methods (Bagging, Boosting, Stacking) Hyperparameter tuning and model selection Cross-validation techniques Applications of classification Clustering Overview of clustering Types of clustering: K-means clustering Hierarchical clustering Evaluation metrics for clustering (Silhouette score) Dimensionality Reduction Overview of dimensionality reduction Importance of dimensionality reduction Techniques for dimensionality reduction: Principal Component Analysis (PCA) Mastering-AI-Advance Introduction to Deep Learning Overview of deep learning Differences between traditional machine learning and deep learning Applications of deep learning in various domains Challenges and limitations of deep learning Overview of generative AI Applications of generative AI in various domains Challenges and limitations of generative AI Deep Learning Frameworks Overview of popular deep learning frameworks (TensorFlow, PyTorch, Keras) Overview of generative AI frameworks (Huggingface, Langchain) Setting up the environment Artificial Neural Networks (ANNs) Feedforward neural networks what is a perceptron Multi-layer perceptrons (MLPs) Activation functions (ReLU, sigmoid, tanh) Loss functions (mean squared error, cross-entropy) Regression and classification using ANNs Model evaluation metrics (accuracy, precision, recall, F1-score) Model interpretability Applications of ANNs in real-world scenarios Hands-on: Build and train ANN model for regression and classification tasks Convolutional Neural Networks (CNNs) Overview of CNNs and their architecture Convolutional layers and filters Pooling layers (max pooling, average pooling) Flattening and fully connected layers Applications of CNNs in image processing and computer vision Hands-on: Build and train a CNN for image classification Recurrent Neural Networks (RNNs) Overview of RNNs and their architecture ANN vs CNN vs RNN Long Short-Term Memory (LSTM) networks Gated Recurrent Units (GRUs) Applications of RNNs in natural language processing and time series analysis Hands-on: Build and train an RNN for text classification or time series prediction Generative Adversarial Networks (GANs) Overview of GANs and their architecture Generator and discriminator networks Training GANs and challenges Applications of GANs in image generation and data augmentation Variants of GANs (DCGAN, CycleGAN, StyleGAN) Hands-on: Build and train a GAN for image generation Transfer Learning Overview of transfer learning Fine-tuning pre-trained models Applications of transfer learning in various domains Hands-on: Fine-tune a pre-trained model for a specific task Natural Language Processing (NLP) Overview of NLP and its applications Text preprocessing techniques (tokenization, stemming, lemmatization) Word embeddings (Word2Vec, GloVe, FastText) Sequence-to-sequence models Attention mechanisms in NLP Named Entity Recognition (NER) Sentiment analysis Fine-tuning pre-trained models for NLP tasks Hands-on: Build and train an NLP model for text classification or sentiment analysis Large Language Models (LLMs) Overview of LLMs and their architecture Transformer architecture Attention mechanisms Pre-training and fine-tuning LLMs Applications of LLMs in natural language processing Hands-on: Fine-tune a pre-trained LLM for text generation or classification Retrieval-Augmented Generation (RAG) Overview of RAG How RAG works Applications of RAG in natural language processing Challenges and limitations of RAG Future directions of RAG Hands-on: Build a RAG model for a specific task (e.g., chat with PDF, chat with CSV, chat with text) Evaluation metrics for RAG models Hands-on: Evaluate the performance of a RAG model Agentic RAG Overview of agentic RAG How agentic RAG works Applications of agentic RAG in natural language processing Challenges and limitations of agentic RAG Future directions of agentic RAG Hands-on: Build an agentic RAG model for a specific task Fine tuning LLMs Overview of fine-tuning LLMs How to fine-tune LLMs Applications of fine-tuning LLMs in natural language processing Challenges and limitations of fine-tuning LLMs Future directions of fine-tuning LLMs Hands-on: Fine-tune an LLM for a specific task
+
+Prerequisites:
+--------------------
+Beginners with basic python knowledge
+
+Student Feedback:
+--------------------
+Amit Kulkarni Sir is truly the best in this field. He explains the basics of technology, which is rare, and makes difficult concepts easy to understand. His syllabus is market-oriented, covering the latest trends. — Amruta Deole, Senior Software Developer The hands-on projects, prompt engineering techniques, and deployment strategies were especially valuable. A great choice for both freshers and professionals aiming to upskill in Gen AI. — Rahul Kulkarni, Data Analyst & ML/DL Developer Amit Sir answered thousands of questions with a smile. His passion for teaching and deep expertise inspired me. The sessions were technically sound and full of real-world insights. — Sanket Gawali, Solution Developer The course provided a strong foundation, progressing seamlessly from basics to advanced topics like RAG and LLMs. The balance of theory and practice was perfect. — Shivani Bhinge, Associate Data Science Engineer This was a zero-to-hero Generative AI course. I can now make an impact in my work using AI. Amit Sir’s humility and support even after the course are unparalleled. — Chaitanya Takalikar, Software Engineer
+
+Batch schedule:
+--------------------
+Sr.No Batch Code Start Date End Date Time 1 AI-O-002(Combo A+B) 14-Jul-2025 03-Sep-2025 9:00 PM To 11:00 PM 2 Mastering-AI-Basics-O-01(A) 14-Jul-2025 06-Aug-2025 9:00 PM To 11:00 PM 3 Mastering-AI-ADV-O-01(B) 07-Aug-2025 03-Sep-2025 9:00 PM To 11:00 PM Schedule : Mon - Thu
+

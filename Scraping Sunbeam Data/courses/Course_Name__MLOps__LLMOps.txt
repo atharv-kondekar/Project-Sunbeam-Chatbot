@@ -1,0 +1,36 @@
+========================================
+📌 Course Name : MLOps & LLMOps
+========================================
+
+Course Name:
+--------------------
+Course Name : MLOps & LLMOps
+
+Duration:
+--------------------
+Duration : 2 weeks
+
+Schedule:
+--------------------
+Batch Schedule : 24-Nov-2025 To 05-Dec-2025
+
+Timings:
+--------------------
+Timings : 9:00 PM To 11:00 PM
+
+Fees:
+--------------------
+Fees : Rs. 8000/- Special Offer for Sunbeam Alumni 5900
+
+Prerequisites:
+--------------------
+Python Libraries: numpy, pandas, matplotlib, sci-kit learn, pytorch SCM: git CI/CD Pipeline: Jenkins and GitHub Actions: scripted pipeline configuration Containerization: Docker: installation and configuration, building custom images, containers, volumes, networks, port forwarding Container Orchestration: Kubernetes: cluster management, namespaces, pods, policies, services, configmap, secrets, networking, storage, autoscaling Cloud: AWS: EC2, ELB, Autoscaling, VPC, S3, Lambda, DevOps on AWS Infrastructure as a code: Terraform: AWS infrastructure management Model building using scikit-learn and pytorch or tensorflow
+
+Syllabus:
+--------------------
+Experiment Tracking: MLFlow, Weights and Biases Data and model versioning: dvc and LakeFS Containerization of models: Docker MLOps Pipeline: KubeFlow and MLFlow Model serving: KServe, Tensorflow Serving CI/CD for MLOps: Jenkins and GitHub Actions Observability: ELK Monitoring: Prometheus and Grafana
+
+Batch schedule:
+--------------------
+Sr.No Batch Code Start Date End Date Time 1 MLOps and LLMOps (O-01) 24-Nov-2025 05-Dec-2025 9:00 PM To 11:00 PM Schedule : Monday to Friday (9pm to 11pm)
+
