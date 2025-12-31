@@ -1,0 +1,52 @@
+========================================
+📌 Course Name : Core Java
+========================================
+
+Course Name:
+--------------------
+Course Name : Core Java
+
+Duration:
+--------------------
+Duration : 80 Hrs
+
+Schedule:
+--------------------
+Batch Schedule : 23-Jan-2026 To 20-Feb-2026
+
+Timings:
+--------------------
+Timings : 9:00 AM To 1:00 PM
+
+Fees:
+--------------------
+Fees : Rs. 8000/- 6800 Early Bird Offer
+
+Target Audience:
+--------------------
+Students Fresher's Working professionals
+
+Syllabus:
+--------------------
+Java Language Fundamentals Java language features Overview of JDK, JRE and JVM Data types and wrapper classes Package, path and classpath Arrays, Enum, jar file OOPs Concept Class, reference, instance Constructor chaining Object class Static initializer block Association and inheritance Polymorphism and dynamic method dispatch Abstract class and Interface Exception Handling Error and exception Checked and unchecked Exception Try-with-resource Multi-catch block Custom exception Chained exceptions Functional Programming Fundamentals Nested and local class Anonymous inner class Functional interface Lambda expression Method and constructor references Constructor Reference Generics Boxing/Auto-Boxing and Unboxing/Auto-Unboxing Parameterized type Bounded type parameter Wild Card and its type Generic method String Handling Overview of UNICODE String, StringBuffer and StringBuilder StringTokenizer Regular expression Collection Framework Comparable versus Comparator List, ArrayList, Vector Set, TreeSet Hashing HashSet, Hashtable and HashMap Java 8 Streams Multithreading Advantages & issues of process & thread Thread class and Runnable Thread States, life cycle Race condition, deadlock, monitor Synchronization and Object class File IO Path basics Text file and binary file processing Serialization and deserialization SerialVersionUID Reflection Metadata and its application java.lang.Class class Overview of reflection classes and interfaces Dynamic method invocation
+
+Pre-requisites:
+--------------------
+OOP concepts: Class, Object, overloading, constructor, inheritance and virtual function.
+
+Software Setup:
+--------------------
+SDK: Open JDK 1.8 Editor: MS VS Code IDE: Eclipse
+
+Student Feedback:
+--------------------
+Rohan Parmane: Your dedication and passion for teaching truly shine through in every lesson. Your ability to engage students and make complex concepts understandable is impressive. The positive environment you create in the classroom fosters both learning and growth. Keep up the excellent work Your thoughtful approach and dedication are greatly appreciated by me. Ketan Kore: I've had the pleasure of learning Core Java under the tutelage of Sir, and I must say that he's the best mentor I've had. Their thorough understanding of Java fundamentals, combined with their ability to present complex topics in a straight forward and understandable manner, has been quite helpful in my learning process. Ketan Kore: Your explanations are always clear and well-structured, which helps grasp difficult concepts more easily.Nice teaching, best interaction with us, great at doubt solving. Rohan Parmane: excellent I will miss Sunbeam Teaching. Sir taught us very well. we got so much knowledge about java in just a little time. sir explained each concept very easily and understandably. Thank you sir for your valuable guidance.
+
+Recorded Videos:
+--------------------
+Recorded videos will be accessible for up to 7 Days from the date of upload.
+
+Batch schedule:
+--------------------
+Sr.No Batch Code Start Date End Date Time 1 CJ-O-17 23-Jan-2026 20-Feb-2026 9:00 AM To 1:00 PM Schedule : Weekdays - (Mon-Fri)
+
