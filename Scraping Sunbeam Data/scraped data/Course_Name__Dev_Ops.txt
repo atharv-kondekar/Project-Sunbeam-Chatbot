@@ -1,40 +1,38 @@
-========================================
-📌 Course Name : Dev Ops
-========================================
+COURSE: DevOps
+CATEGORY: Modular Course
 
-Course Name:
---------------------
-Course Name : Dev Ops
+DURATION: 80 Hours
+FEES: ₹11100
+SCHEDULE: 15-Sep-2025 to 20-Nov-2025
+TIMINGS: 9:00 PM to 11:00 PM
+MODE: Mon - Thu (Online/Offline - confirm with institute)
 
-Duration:
---------------------
-Duration : 80 Hrs
+PREREQUISITES:
+- Basic Linux administration
+- Knowledge of any development stack (Java/Python etc.)
+- Understanding of testing tools (Selenium, JUnit)
+- Familiarity with build tools (Ant, Gradle, Maven)
 
-Schedule:
---------------------
-Batch Schedule : 15-Sep-2025 To 20-Nov-2025
+SYLLABUS MODULES:
+- Week 1: Linux fundamentals, DevOps lifecycle, SDLC, Agile, File system, User/Group management
+- Week 2: Git - VCS basics, branching, merging, GitHub collaboration
+- Week 3: Docker - architecture, images, containers, networking, volumes
+- Week 4: Kubernetes - pods, services, ConfigMaps, PV/PVC, observability, probes
+- Week 5: Jenkins - CI/CD pipelines, installation, scripted pipelines, security
+- Week 6: AWS - EC2, VPC, Lambda, S3, RDS, CodeCommit/CodeBuild/CodeDeploy
+- Week 7: Terraform - infrastructure as code, states, modules
+- Week 8: Ansible - playbooks, inventory, modules, automation, cloud usage
 
-Timings:
---------------------
-Timings : 9:00 PM To 11:00 PM
+SOFTWARE REQUIREMENTS:
+- Docker, Kubernetes
+- Git & GitHub
+- Jenkins
+- Terraform
+- AWS account access
+- Linux environment (VM recommended)
 
-Fees:
---------------------
-Fees : Rs. 11100/-
-
-Syllabus:
---------------------
-Week 1: Linux DevOps Introduction to DevOps SDLC and Agile fundamentals DevOps Lifecyle Introduction to the Tools used in DevOps Lifecyle Linux Installation and configuration using VM Booting File System Working with Text files Archiving and compressing files User and Group management File Permissions Package management Systemd management Week 2: Git Foundation of VCS What is Git? Git Workflow Git Internals Demystifying branching Collaboration with GitHub Week 3: Docker Virtualization Hardware virtualization vs Containerization Docker fundamentals Architecture Installation and configuration Image management Container management Docker network Persisting data with Docker volumes Container Orchestration with Docker Swarm Week 4: Kubernetes Introducing Kubernetes and its features Architecture Installation of configuration of Kubernetes cluster Pod management Secrets and ConfigMaps Service and Networking State persistence with PersistentVolumes and PersistentVolumeClaims Observability Probes Week 5: Jenkins Introduction to CI/CD pipeline Jenkins cluster installation and configuration Configuration of pipeline Scripted pipeline Implementing security with Jenkins Setting up notifications Using Jenkinsfile Week 6: AWS Introduction to Cloud What is AWS? AWS Services Compute Services: EC2 instance VPC Lambda Storage Services: S3 Database Services: RDS (MySQL) DevOps Services: CodeCommit, CodeBuild, CodeDeploy, X-Ray Container Services: ECS, EKS Week 7: Terraform Infrastructure as a Code Installation and Configuration Terraform foundation Workflow Terraform modules Implementing and maintaining states HCP Terraform Week 8: Ansible Introduction to Ansible Pull vs Push method Installation and Configuration Architecture and Design of Ansible Diving into playbooks Using Ansible with cloud Using Ansible with containers Modules and plugins
-
-Prerequisites:
---------------------
-Basic Linux administration Knowledge of any development stack Knowledge of testing tools like Selenium and JUnit Knowledge of build tools like Ant/Gradle/Maven
-
-Diwali Vacation Break:
---------------------
-Diwali Holidays are scheduled from 17th October 2025 to 31st October 2025.
-
-Batch schedule:
---------------------
-Sr.No Batch Code Start Date End Date Time 1 Dev Ops-O-06 15-Sep-2025 20-Nov-2025 9:00 PM To 11:00 PM Schedule : Mon - Thu
-
+OUTCOMES:
+- Build CI/CD pipelines
+- Containerize and orchestrate applications
+- Deploy infrastructure on AWS with Terraform and Ansible
+- Apply DevOps principles in real environments
