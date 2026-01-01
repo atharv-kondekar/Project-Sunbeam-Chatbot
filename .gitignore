@@ -1,3 +1,6 @@
 myenvo/
 /__pycache__/
 *.pyc
+chroma_db/
+*.bin
+*.sqlite3
