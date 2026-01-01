@@ -29,6 +29,8 @@ if query:
         st.stop()
 
 
+
+
 # ---------------- RENDER CHAT ----------------
 for role, message in st.session_state.chat_history:
 
