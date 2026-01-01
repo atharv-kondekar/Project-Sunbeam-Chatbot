@@ -39,3 +39,5 @@ for role, message in st.session_state.chat_history:
     elif role == "assistant":
         with st.chat_message("assistant", avatar="🤖"):
             st.write(message)
+
+
