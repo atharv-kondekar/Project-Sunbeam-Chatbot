@@ -1,9 +1,10 @@
-import os
+import os, re
 from langchain_huggingface import HuggingFaceEmbeddings
 from langchain_chroma import Chroma
 from langchain.chat_models import init_chat_model
 
-# ---------------- CONFIG ----------------
+
+# Connecting to vectorDb and embedding model 
 DB_DIR = os.path.join(os.path.dirname(__file__), "chroma_db")
 
 embeddings = HuggingFaceEmbeddings(model_name="all-MiniLM-L6-v2")
@@ -14,14 +15,16 @@ retriever = db.as_retriever(
     search_kwargs={"k": 8}
 )
 
+#Initializing LLM
 llm = init_chat_model(
     model="meta-llama-3.1-8b-instruct",
     model_provider="openai",
-    openai_api_base="http://localhost:1234/v1",  # change if needed
+    openai_api_base="http://localhost:1234/v1",
     api_key="dummy"
 )
 
-# ---------------- NORMALIZATION ----------------
+
+# ---------------- NORMALIZATION the query ----------------
 def normalize_query(q: str) -> str:
     q = q.lower().strip()
 
@@ -32,19 +35,12 @@ def normalize_query(q: str) -> str:
     for f in filler:
         q = q.replace(f, "")
 
-    # Intent mapping
-    intent_map = {
+    replacements = {
         "cost": "fees",
         "price": "fees",
         "how long": "duration",
         "time required": "duration",
         "course length": "duration",
-    }
-    for k, v in intent_map.items():
-        q = q.replace(k, v)
-
-    # Course mapping
-    course_map = {
         "gen ai": "generative ai",
         "gen-ai": "generative ai",
         "llm": "generative ai",
@@ -53,87 +49,104 @@ def normalize_query(q: str) -> str:
         "adv java": "advanced java",
         "mern": "mern full stack development",
         "fsd": "full stack development",
-        "python": "python programming",
+        "python": "python development",
     }
-    for k, v in course_map.items():
+    for k, v in replacements.items():
         q = q.replace(k, v)
 
     return q.strip()
 
-# ---------------- FILTER DOCS ----------------
-def filter_docs_by_course(query, docs):
-    tokens = set(query.lower().split())
-    filtered = [d for d in docs if any(t in d.metadata.get("course","") for t in tokens)]
-    return filtered if filtered else docs
 
-def prioritize_by_section(query, docs):
+# ---------------- EXTRACT FROM UNSTRUCTURED TEXT ----------------
+def extract_section(query, context):
     q = query.lower()
 
-    if "fees" in q: target = "fees"
-    elif any(x in q for x in ["duration", "hours", "months"]): target = "duration"
-    elif any(x in q for x in ["eligibility", "prerequisite"]): target = "eligibility"
-    elif any(x in q for x in ["syllabus", "module"]): target = "syllabus"
-    elif any(x in q for x in ["schedule", "timings"]): target = "schedule"
-    else: return docs
+    patterns = {
+        "duration": r"(duration|how long|hours|months).{0,80}",
+        "fees": r"(fees|cost|price).{0,80}",
+        "eligibility": r"(eligibility|prerequisites|requirements).{0,200}",
+        "syllabus": r"(syllabus|modules|curriculum|topics).{0,300}",
+        "schedule": r"(schedule|batch|dates).{0,150}",
+        "timings": r"(timings|time|hours|class time).{0,120}",
+        "about": r"(sunbeam|institute|training|established|focus|mission).{0,300}"
+    }
 
-    best = [d for d in docs if d.metadata.get("section") == target]
-    return best if best else docs
+    # Targeted match
+    for key, pattern in patterns.items():
+        if key in q:
+            match = re.search(pattern, context, flags=re.IGNORECASE)
+            if match:
+                return match.group(0)
 
-# ---------------- ASK FUNCTION ----------------
+    # Fallback match
+    for pattern in patterns.values():
+        match = re.search(pattern, context, flags=re.IGNORECASE)
+        if match:
+            return match.group(0)
+
+    return None
+
+
+# ---------------- ASK FUNCTION (MAIN LOGIC) ----------------
 def ask(raw_query: str):
     query = normalize_query(raw_query)
-
-    # Step 1: initial retrieval
     docs = retriever.invoke(query)
 
-    # Step 2: SOFT score filter (don’t nuke everything)
-    soft = [d for d in docs if d.metadata.get("score", 0) >= 0.25]
-    docs = soft if soft else docs  # fallback to original if empty
-
+    docs = [d for d in docs if d.metadata.get("score", 0) >= 0.10] or docs
     if not docs:
         return "Not in my current Sunbeam data.", []
 
-    # Step 3: refine
-    docs = filter_docs_by_course(query, docs)
-    docs = prioritize_by_section(query, docs)
+    context = "\n\n---\n\n".join([d.page_content for d in docs])
+    extracted = extract_section(query, context)
 
-    # Step 4: build context for model
-    context = "\n\n---\n\n".join(d.page_content for d in docs)
-
-    # Step 5: instruction
-    prompt = f"""
+    base_prompt = f"""
 You are a Sunbeam Institute information assistant.
+Answer ONLY using the text below.
+Do NOT guess or hallucinate.
+If you don't find the answer, respond EXACTLY:
+Not in my current Sunbeam data.
 
-RULES:
-- Respond ONLY using the context.
-- If answer is missing → reply EXACTLY: Not in my current Sunbeam data.
-- Do NOT guess or hallucinate.
-- Answer in one or two lines maximum.
-
-CONTEXT:
+TEXT:
 {context}
 
 QUESTION: {query}
-ANSWER:
-""".strip()
+"""
 
-    response = llm.invoke(prompt)
-    answer = response.content.strip()
+    if extracted:
+        prompt = base_prompt + f"\nRelevant Extract:\n{extracted}\nANSWER:"
+        response = llm.invoke(prompt).content.strip()
+        if response and "not in" not in response.lower():
+            return response, []
 
-    if answer.lower() == "not in my current sunbeam data.":
+    prompt = base_prompt + "\nANSWER:"
+    # invoking the LLM 
+    response = llm.invoke(prompt).content.strip()
+    
+
+    if not response or "not in" in response.lower():
         return "Not in my current Sunbeam data.", []
 
-    return answer, []
+    return response, []
 
-# ---------------- TEST ----------------
+
+# ---------------- TEST BLOCK ----------------
 if __name__ == "__main__":
-    print("\n🚀 TESTING\n")
-    tests = [
-        "fees for java",
-        "duration for generative ai",
-        "eligibility for machine learning",
+    print("\n🚀 TESTING UNSTRUCTURED RAG (rag_local.py)\n")
+
+    test_queries = [
+        "fees for core java",
+        "duration for the java course",
+        "eligibility for python development",
+        "syllabus for machine learning",
+        "duration for mastering generative ai course",
         "about sunbeam",
+        "internship domains",
+        "placements statistics",
+        "marine engineering course fees",  # should fail
     ]
-    for t in tests:
-        ans, _ = ask(t)
-        print(f"Q: {t} → {ans}")
+
+    for q in test_queries:
+        ans, _ = ask(q)
+        print(f"❓ {q}\n➡️ {ans}\n")
+
+    print("🎯 DONE — if majority fail, your .txt files STILL suck.\n")
