@@ -8,6 +8,7 @@ from webdriver_manager.chrome import ChromeDriverManager
 driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()))
 driver.maximize_window()
 
+# The popup killer 
 def kill_popups():
     for x in [
         "//*[@id='jivo_close_button']",
@@ -22,6 +23,7 @@ def kill_popups():
                 driver.execute_script("arguments[0].style.display='none';", el)
             except: pass
 
+# clean function
 def clean(txt:str):
     if not txt: return ""
     return re.sub(r'\s+', ' ', txt.replace("CLICK TO REGISTER","")).strip()
@@ -32,6 +34,7 @@ driver.get("https://sunbeaminfo.in/modular-courses-home")
 time.sleep(5)
 kill_popups()
 
+# Extracting all courses link
 links = list(set([
     e.get_attribute("href").lower()
     for e in driver.find_elements(By.XPATH,"//a[contains(@href,'modular-courses')]")
