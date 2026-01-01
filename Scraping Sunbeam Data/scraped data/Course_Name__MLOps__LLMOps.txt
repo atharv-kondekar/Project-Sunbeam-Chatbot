@@ -1,36 +1,31 @@
-========================================
-📌 Course Name : MLOps & LLMOps
-========================================
+COURSE: MLOps & LLMOps
+CATEGORY: DevOps for ML & LLM Systems
 
-Course Name:
---------------------
-Course Name : MLOps & LLMOps
+DURATION: 2 Weeks
+FEES: ₹8000 (₹5900 for Sunbeam Alumni)
+SCHEDULE: 24-Nov-2025 to 05-Dec-2025
+TIMINGS: 9:00 PM to 11:00 PM
+MODE: Monday to Friday
 
-Duration:
---------------------
-Duration : 2 weeks
+PREREQUISITES:
+- Python (NumPy, Pandas, PyTorch/Tensorflow)
+- Git & CI/CD Basics
+- Docker & Kubernetes fundamentals
+- AWS basics (EC2, VPC, S3)
+- Terraform basics
 
-Schedule:
---------------------
-Batch Schedule : 24-Nov-2025 To 05-Dec-2025
+SYLLABUS MODULES:
+- Experiment Tracking: MLFlow, Weights & Biases
+- Data + Model Versioning: DVC, LakeFS
+- Containerization: Docker image creation, volume management
+- Serving: KServe, TensorFlow Serving
+- Pipelines: Kubeflow, MLFlow pipelines
+- CI/CD: Jenkins + GitHub Actions for ML systems
+- Monitoring & Observability: ELK, Prometheus, Grafana
+- Deployment Patterns: batch, online, streaming inference
 
-Timings:
---------------------
-Timings : 9:00 PM To 11:00 PM
-
-Fees:
---------------------
-Fees : Rs. 8000/- Special Offer for Sunbeam Alumni 5900
-
-Prerequisites:
---------------------
-Python Libraries: numpy, pandas, matplotlib, sci-kit learn, pytorch SCM: git CI/CD Pipeline: Jenkins and GitHub Actions: scripted pipeline configuration Containerization: Docker: installation and configuration, building custom images, containers, volumes, networks, port forwarding Container Orchestration: Kubernetes: cluster management, namespaces, pods, policies, services, configmap, secrets, networking, storage, autoscaling Cloud: AWS: EC2, ELB, Autoscaling, VPC, S3, Lambda, DevOps on AWS Infrastructure as a code: Terraform: AWS infrastructure management Model building using scikit-learn and pytorch or tensorflow
-
-Syllabus:
---------------------
-Experiment Tracking: MLFlow, Weights and Biases Data and model versioning: dvc and LakeFS Containerization of models: Docker MLOps Pipeline: KubeFlow and MLFlow Model serving: KServe, Tensorflow Serving CI/CD for MLOps: Jenkins and GitHub Actions Observability: ELK Monitoring: Prometheus and Grafana
-
-Batch schedule:
---------------------
-Sr.No Batch Code Start Date End Date Time 1 MLOps and LLMOps (O-01) 24-Nov-2025 05-Dec-2025 9:00 PM To 11:00 PM Schedule : Monday to Friday (9pm to 11pm)
-
+OUTCOMES:
+- Build & monitor ML pipelines
+- Deploy and version ML/LLM models
+- Create CI/CD automation for ML projects
+- Operate ML systems on cloud infrastructure

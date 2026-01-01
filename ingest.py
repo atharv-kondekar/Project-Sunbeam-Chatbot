@@ -6,7 +6,7 @@ from langchain_text_splitters import RecursiveCharacterTextSplitter
 
 DB_DIR = os.path.join(os.path.dirname(__file__), "chroma_db")
 
-
+# text into categories 
 def detect_section(text):
     t = text.lower()
 
