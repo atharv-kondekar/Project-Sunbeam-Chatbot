@@ -29,5 +29,5 @@ def load_all_txt():
 if __name__ == "__main__":
     data = load_all_txt()
     print("\n📌 SAMPLE FILES:")
-    for d in data[:5]:
+    for d in data[:5]: 
         print("•", d.metadata["source"])
