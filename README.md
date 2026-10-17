@@ -348,9 +348,7 @@ Interested in Machine Learning, Generative AI, LLM applications, Retrieval-Augme
 
 - **GitHub:** [Atharv Kondekar](https://github.com/atharv-kondekar)
 - **LinkedIn:** www.linkedin.com/in/atharv-kondekar
-## 📄 License
 
-Add a `LICENSE` file if you intend to distribute this project under an open-source license. Before publishing, verify that the scraped content and any included third-party assets may be redistributed.
 
 ---
 
